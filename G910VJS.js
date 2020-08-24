@@ -5,7 +5,7 @@ var Menu = new Vue ({
 	}
 })
 
-var MainSection new Vue ({
+var MainSection = new Vue ({
 	el: '#MainSection',
 	data: {
 		CurrentAlbom: 1
