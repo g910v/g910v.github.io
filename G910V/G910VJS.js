@@ -1,3 +1,6 @@
+import Swup from 'swup'
+const swup = new Swup();
+
 new Vue ({
 	el: '#ForMenu',
 	data: {
@@ -11,6 +14,3 @@ new Vue ({
 		CurrentAlbom: 1
 	}
 })
-
-// import Swup from 'swup'
-const swup = new Swup();
