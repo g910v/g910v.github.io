@@ -1,11 +1,11 @@
-new Vue ({
+var Menu = new Vue ({
 	el: '#ForMenu',
 	data: {
 		show: false
 	}
 })
 
-new Vue ({
+var MainSection new Vue ({
 	el: '.MainSection',
 	data: {
 		CurrentAlbom: 1
