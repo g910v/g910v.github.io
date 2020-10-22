@@ -1,0 +1,74 @@
+body {
+    background-color: #636363;
+}
+
+.mainSection {
+    margin-top: 15vh;
+    margin-left: 14vw;
+    width: 70vw;
+    height: 70vh;
+    background-color: #636363;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameSection {
+    color: white;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+.calculatorSection {
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    background-color: #424242;
+    border-color: wheat;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.addButton {
+    width: 100px;
+    height: 40px;
+    /* background-color: #424242;
+    border-color:white;
+    color: white; */
+    font-size: 25px;
+}
+
+.addButton:hover {
+    cursor: pointer;
+}
+
+.sumSection {
+    width: 200px;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.sum, .textSection {
+    width: 50%;
+    color: white;
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
+}
+
+.sum {
+    text-align: end;
+}
