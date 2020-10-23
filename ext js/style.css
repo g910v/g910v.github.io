@@ -1,0 +1,16 @@
+#mainButton {
+    width: 150px;
+    height: 40px;
+    margin: 100px;
+}
+
+#formSection {
+    margin-left: 100px;
+    width: 60vw;
+    height: 80vh;
+    font-size: 15px;
+}
+
+.entryField {
+    width: 100%;
+}
