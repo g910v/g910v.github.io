@@ -40,14 +40,20 @@
 		<div class="div1">
 			<img src="https://sun9-62.userapi.com/impg/5Tvu363cyRcaEPaXxBq2STDiv8_ETErN6HXVeA/dg-9ZBrpeig.jpg?size=1920x1920&quality=96&sign=13577b5e1c2341b03bbdf963cf4328a1&type=album">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.8493539994488!2d30.32315479187324!3d59.934641873279624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963105ecfca07f%3A0x12ea0761bb994c15!2z0JrQsNC30LDQvdGB0LrQuNC5INC60LDRhNC10LTRgNCw0LvRjNC90YvQuSDRgdC-0LHQvtGA!5e0!3m2!1sru!2sru!4v1618327408237!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-			<div class="yandex"></div>
+			<div class="yandex" id="map"></div>
 		</div>
 		<p>
 			Каза́нский кафедра́льный собо́р (Собор Казанской иконы Божией Матери) — один из крупнейших храмов Санкт-Петербурга. Построен на Невском проспекте в 1801—1811 годах архитектором Андреем Воронихиным для хранения чтимого списка чудотворной иконы Божией Матери Казанской.
 		</p>
 	</div>
 	<script>
-		
+		ymaps.ready(init);
+    		function init(){
+        		var myMap = new ymaps.Map("map", {
+            		center: [55.76, 37.64],
+            		zoom: 7
+        		});
+    		}
 	</script>
 </body>
 </html>
